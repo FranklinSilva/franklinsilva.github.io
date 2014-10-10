@@ -1,0 +1,738 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* CSS RESET */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+    pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+    q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+    dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+    thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+    footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+    audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+}
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+    nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1.2;
+}
+ol {
+        padding-left: 1.4em;
+        list-style: decimal;
+    }
+    ul {
+        padding-left: 1.4em
+        list-style: square;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+/*END CSS RESET*/    
+
+body{
+        width:100%;
+        margin:0 auto;
+    }
+
+header{
+	width: 100%;
+	min-height: 35em;
+	background: url(../images/IMG_6894P.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  float: left;
+  }
+
+header nav{
+	padding: 3% 0;
+	background-color: rgba(255,255,255,0.4);
+}
+
+header img{
+	margin: 0 auto;
+	position: relative;
+	left: 25%;
+	padding-top: 40%;
+	width: 50%;
+}
+
+header h1{
+	margin: 80% 0 0 30%;
+	text-align: center;
+	font:  normal small-caps lighter 3.5em/1 'Roboto Slab';/* old browsers */
+	font:  extra-expanded normal small-caps lighter 3.5em/1 'Roboto Slab';
+	/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
+	
+}
+
+header h2{
+	margin: 10% 0 0 30%;
+	text-align: center;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+}
+
+header nav{
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+header nav ul{
+		font-size: 1em;
+		width: 80%;
+		padding: 0px;
+		height: 1em;
+		margin: 0 auto;
+		text-align: center;
+		list-style:none;
+	}
+
+header nav ul li{
+		display: inline;
+		margin: 0 2%;
+	}
+
+header nav ul li a{
+		padding: 1% 2%;
+		margin: 0 auto;
+		font-size: 1em;
+		color: #333;
+		text-decoration: none;
+		height: 1em;
+		transition 1s;
+		-webkit-transition: 1s;
+		font-family: 'lato';
+
+	}
+
+header nav ul li a:hover{
+		color: #666;
+		transition: 1s;
+
+	}    
+
+
+#about{
+	background-color: white;
+}
+
+#about ul{
+		width: 100%;
+		padding: 0px;
+		margin: 0 auto;
+		text-align: center;
+		list-style:none;
+}
+
+#about ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10% 12%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#about ul li svg{
+	display: block;
+	margin:0 auto;
+	
+}
+
+#about ul li span{
+	min-width: 3em;
+	text-align: center;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';
+	
+}   
+#about h3{
+	text-align: center;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+}
+
+/*hack for layout problem*/
+h6{color: white;visibility: hidden;}
+/*END*/
+
+#about p{
+	margin: 5%;
+	text-align: justify;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+
+}
+
+/* SVG */
+
+#about svg{
+	width: 60px; 
+	height: 73px;
+}
+
+.htC{fill: #F16529;transition:0.5s;}
+.htC:hover{fill: #E44D26;transition:0.5s;}
+.htD{fill: #E44D26;transition:0.5s;}
+.htD:hover{fill: #F16529;transition:0.5s;}
+
+.csC{fill: #29B7E2;transition:0.5s;}
+.csC:hover{fill: #28ABC9;transition:0.5s;}
+.csD{fill: #28ABC9;transition:0.5s;}
+.csD:hover{fill: #29B7E2;transition:0.5s;}
+
+.jsC{fill:#F8DC3D;transition:0.5s;}
+.jsC:hover{fill:#CEB538;transition:0.5s;}
+.jsD{fill:#CEB538;transition:0.5s;}
+.jsD:Hover{fill:#F8DC3D;transition:0.5s;}
+
+.asC{fill:#4ECC33;transition:0.5s;}
+.asC:hover{fill:#357C23;transition:0.5s;}
+.asD{fill:#357C23;transition:0.5s;}
+.asD:hover{fill:#4ECC33;}
+
+.jaC{fill: #7137CC;transition:0.5s;}
+.jaC:hover{fill: #5D5D5D;transition:0.5s;}
+.jaD{fill: #5D5D5D;transition:0.5s;}
+.jaD:hover{fill: #7137CC;transition:0.5s;}
+
+.scC{fill:#1A9AB5;transition:0.5s;}
+.scC:hover{fill:#415970;transition:0.5s;}
+.scD{fill:#415970;transition:0.5s;}
+.scD:hover{fill:#1A9AB5;transition:0.5s;}
+
+.iosC{fill:#505151;transition:0.5s;}
+.iosC:hover{fill:#353535;transition:0.5s;}
+.iosD{fill:#353535;transition:0.5s;}
+.iosD:hover{fill:#505151;transition:0.5s;}
+
+.ioC{fill:#FFFFFF;transition:0.5s;}
+.ioC:hover{fill:#EDEDED;transition:0.5s;}
+.ioD{fill:#EDEDED;transition:0.5s;}
+.ioD:hover{fill:#FFFFFF;transition:0.5s;}
+
+.anC{fill:#AA2685;transition:0.5s;}
+.anC:hover{fill:#9B2680;transition:0.5s;}
+.anD{fill:#9B2680;transition:0.5s;}
+.anD:hover{fill:#AA2685;transition:0.5s;}
+
+.xmC{fill:#8FA827;transition:0.5s;}
+.xmC:hover{fill:#7D8725;transition:0.5s;}
+.xmD{fill:#7D8725;transition:0.5s;}
+.xmd:hover{fill:#8FA827;transition:0.5s;}
+
+#dropLine div svg{
+	width:20%; 
+	height:2em;
+	margin: 10% 40% 0;
+
+.social{fill:black;}
+.social:hover{fill:#2ccfaf;}
+	
+}
+
+#social ul li svg{
+	display: inline;
+	margin:0 auto;
+	width:2em; 
+	height:2em;
+}
+
+/* END SVG */ 
+
+#salvador{
+	float: left;
+	min-height: 15em;
+	width: 100%;
+	background: url(../images/ssa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#salvador h3{
+	padding-top:10%;
+	margin: 5%;
+	text-align: right;
+	font:  normal normal lighter 1.5em/1 'Roboto Slab';/* old browsers */
+	font:  extra-expanded normal normal lighter 1.5em/1 'Roboto Slab';
+	color: white;
+}
+
+#salvador h4{
+	padding-bottom: 10%;
+	margin: 10% auto;
+	text-align: center;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+	color: white;
+}
+
+#concepts{
+}
+
+#concepts h2{
+		padding: 5%;
+	text-align: center;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+
+}
+
+#concepts h3{
+	padding: 5%;
+	text-align: center;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+
+}
+
+#concepts ul{
+	padding-bottom: 10%;
+}
+#concepts ul li{}
+#concepts ul li article{}
+#concepts ul li article p{
+	margin: 5%;
+	text-align: justify;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+
+}
+
+#concepts ul li article img{
+	width: 50%;
+	margin: 5% 25% 0;
+	height: auto;
+	
+}
+
+#dropLine{
+	background-color: #f0f0f0;
+}
+
+#dropLine hr{
+	border: 2px dashed #2ccfaf;
+	width: 30%;
+	margin: 0 auto;
+}
+
+#dropLine h3{
+	text-align: center;
+	padding: 10%;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';
+}
+
+#dropLine div{
+	background-color: white;
+	margin: 10%;
+	min-height: 10em;
+	
+}
+
+#dropLine div h5{
+	text-align: center;
+	padding: 5%;
+	font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1.5em/1 'lato';
+	color: #2ccfaf;	
+}
+
+#dropLine div hr{
+	border: 2px solid #2ccfaf;
+	width: 30%;
+	margin: 0 auto;
+}
+
+#dropLine div h4{
+	text-align: center;
+	padding: 10%;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+}
+
+div#social{
+	width: 100%;
+	min-height: 5em;
+	margin: 0;
+	padding-bottom: 10%;
+	background-color: #f0f0f0;
+
+}
+
+div#social ul{
+		width: 100%;
+		padding-top: 10%;
+		margin: 0 auto;
+		text-align: center;
+		list-style:none;
+}
+
+div#social ul li{
+	text-align: center;
+	display: inline;
+	padding: 10% 5%;
+	margin: 0 auto;
+	
+}
+
+footer{
+	background-color: #145766;	
+}
+
+footer h5{
+	text-align: center;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+	color: white;
+	padding: 10% 5%;
+}
+
+@media (max-width: 37em){
+	header{
+		background: url(../images/IMG_6894P.jpg) no-repeat 20% center;
+
+	}
+	#salvador{
+		background: url(../images/ssa.jpg) no-repeat center center; 
+	}
+}        
+@media screen and (min-width: 37em) and (max-width: 50em){
+
+header{
+		background: url(../images/IMG_6894PT.jpg) no-repeat 90% 30%;
+	}
+	#salvador{
+		background: url(../images/ssa.jpg) no-repeat center center;
+	}
+
+header{
+	min-height: 40em;
+}
+
+header img{
+	left: 38%;
+	padding-top: 30%;
+	width: 25%;
+}
+
+header h1{
+	margin: 40% 0 0 30%;
+	font:  normal small-caps lighter 4.5em/1 'Roboto Slab';/* old browsers */
+	font:  extra-expanded normal small-caps lighter 4.5em/1 'Roboto Slab';
+	/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
+	
+}
+
+
+header h2{
+	margin: 5% 0 0 30%;
+	text-align: center;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+}
+
+header nav ul{
+		font-size: 1.5em;
+		}
+#about h3{
+	text-align: center;
+	font:  normal small-caps lighter 2.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2.5em/1 'lato';	
+}
+
+#about p{
+	margin: 5%;
+	text-align: justify;
+	font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1.5em/1 'lato';	
+
+}
+
+#about svg{
+	width: 120px; 
+	height: 146px;
+}
+
+
+
+#salvador h3{
+	margin: 5% 5% 5% 50%;
+	text-align: right;
+	font:  normal normal lighter 2.5em/1 'Roboto Slab';/* old browsers */
+	font:  extra-expanded normal normal lighter 2.5em/1 'Roboto Slab';
+}
+
+#salvador h4{
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+}
+
+#concepts h2{
+	font:  normal small-caps lighter 4em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 4em/1 'lato';	
+
+}
+
+#concepts h3{
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+
+}
+
+#concepts ul li article p{
+	display: inline;
+	text-align: justify;
+	float: right;
+	width: 40%;
+	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1em/1 'lato';	
+
+}
+
+#concepts ul li{
+	margin: 5%;
+	list-style: none;
+}
+
+#concepts ul li article img{
+	display: inline;
+	width: 25%;
+	margin: 5% 5% 0;
+	height: auto;
+	
+}
+
+#dropLine h3{
+	font:  normal small-caps lighter 2.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2.5em/1 'lato';
+}
+
+
+#dropLine div h5{
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';
+}
+
+#dropLine div h4{
+	font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 1.5em/1 'lato';	
+}
+
+div#social{
+	width: 100%;
+	min-height: 5em;
+	margin: 0;
+	padding-bottom: 10%;
+	background-color: #f0f0f0;
+
+}
+
+
+div#social ul li{
+	text-align: center;
+	display: inline;
+	padding: 10% 5%;
+	margin: 0 auto;
+	
+}
+
+#social ul li svg{
+	width:4em; 
+	height:4em;
+}
+
+}
+@media (min-width: 50em){
+
+body{
+	width:100%;
+}
+
+header{
+	width: 100%;
+	min-height: 50em;
+	background: url(../images/IMG_6894PTF.jpg) no-repeat 50% 10% fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  float: left;
+  }
+  
+
+  header h1{
+	margin: 30% 0 0 35%;
+	text-align: center;
+	font:  normal small-caps lighter 5em/1 'Roboto Slab';/* old browsers */
+	font:  extra-expanded normal small-caps lighter 5em/1 'Roboto Slab';
+	/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
+	
+}
+
+	header h2{
+	margin: 0 0 0 35%;
+	text-align: center;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+}
+
+header nav ul{
+		font-size: 1.5em;
+		}
+#about h3{
+	text-align: center;
+	font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 3em/1 'lato';	
+}
+
+#about p{
+	margin: 5%;
+	text-align: justify;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+
+}
+
+#about svg{
+	width: 120px; 
+	height: 146px;
+}
+
+#about ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#salvador h3{
+	margin: 0 5% 2% 50%;
+	text-align: right;
+	font:  normal normal lighter 3.5em/1 'Roboto Slab';/* old browsers */
+	font:  extra-expanded normal normal lighter 3.5em/1 'Roboto Slab';
+}
+
+#salvador h4{
+	padding-bottom: 0%;
+	margin: 5% auto;
+	font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 3em/1 'lato';	
+}
+
+#concepts h2{
+	font:  normal small-caps lighter 3.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 3.5em/1 'lato';	
+
+}
+
+
+#concepts h3{
+	font:  normal small-caps lighter 3.5em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 3.5em/1 'lato';	
+
+}
+
+#concepts ul li article p{
+	display: inline;
+	text-align: justify;
+	float: right;
+	width: 40%;
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'lato';	
+
+}
+
+#concepts ul li{
+	margin: 0 5% 5%;
+	list-style: none;
+}
+
+#concepts ul li article img{
+	display: inline;
+	width: 15%;
+	margin: 5% 5% 0;
+	height: auto;
+	
+}
+
+
+
+#dropLine{
+	min-height: 40em;
+	float: left;
+	width: 100%;
+}
+
+
+
+#dropLine h3{
+	padding: 5% 5% 1% 5%;
+	font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
+	font:  expanded normal small-caps lighter 3em/1 'lato';
+}
+
+#dropLine div{
+	min-height: 10em;
+	background-color: white;
+	margin: 2% 10%;
+	width: 30%;
+	float: left;
+}
+
+div#social{
+	width: 100%;
+	min-height: 2em;
+	margin: 0;
+	padding-bottom: 2%;
+	background-color: #f0f0f0;
+
+}
+
+
+div#social ul li{
+	text-align: center;
+	display: inline;
+	padding: 5% 5%;
+	margin: 0 auto;
+	
+}
+
+#social ul li svg{
+	width:4em; 
+	height:4em;
+}
+
+footer{
+	width: 100%;
+	float: left;
+}
+
+footer h5{
+	padding: 2% 5%;
+}
+}
+
+.os-animation{
+  opacity: 0;
+}
+
+.os-animation.animated{
+    opacity: 1;
+}
+
+    
