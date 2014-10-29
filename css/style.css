@@ -286,8 +286,8 @@ h6{color: white;visibility: hidden;}
 #concepts h2{
 		padding: 5%;
 	text-align: center;
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
+	font:  normal small-caps lighter 2em/1 'Roboto Slab';/* old browsers */
+	font:  expanded normal small-caps lighter 2em/1 'Roboto Slab';	
 
 }
 
@@ -303,9 +303,11 @@ h6{color: white;visibility: hidden;}
 	padding-bottom: 10%;
 }
 #concepts ul li{}
-#concepts ul li article{}
+#concepts ul li article{
+	display: inline-block;
+}
 #concepts ul li article p{
-	margin: 5%;
+	margin: 0 5%;
 	text-align: justify;
 	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
 	font:  expanded normal small-caps lighter 1em/1 'lato';	
@@ -313,8 +315,8 @@ h6{color: white;visibility: hidden;}
 }
 
 #concepts ul li article img{
-	width: 50%;
-	margin: 5% 25% 0;
+	width: 100%;
+	margin: 0 auto;
 	height: auto;
 	
 }
@@ -388,6 +390,11 @@ div#social ul li{
 	margin: 0 auto;
 	
 }
+
+div#social ul li a{
+	text-decoration: none;
+}
+
 
 footer{
 	background-color: #145766;	
@@ -482,8 +489,8 @@ header nav ul{
 }
 
 #concepts h2{
-	font:  normal small-caps lighter 4em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 4em/1 'lato';	
+	font:  normal small-caps lighter 4em/1 'Roboto Slab';/* old browsers */
+	font:  expanded normal small-caps lighter 4em/1 'Roboto Slab';	
 
 }
 
@@ -498,6 +505,7 @@ header nav ul{
 	text-align: justify;
 	float: right;
 	width: 40%;
+	margin-top: 5%;
 	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
 	font:  expanded normal small-caps lighter 1em/1 'lato';	
 
@@ -510,8 +518,8 @@ header nav ul{
 
 #concepts ul li article img{
 	display: inline;
-	width: 25%;
-	margin: 5% 5% 0;
+	width: 50%;
+	margin: 0 auto;
 	height: auto;
 	
 }
@@ -564,7 +572,7 @@ body{
 
 header{
 	width: 100%;
-	min-height: 50em;
+	min-height: 60em;
 	background: url(../images/IMG_6894PTF.jpg) no-repeat 50% 10% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -634,9 +642,15 @@ header nav ul{
 	font:  expanded normal small-caps lighter 3em/1 'lato';	
 }
 
+#concepts{
+	margin: 0 auto;
+	width: 80%;
+	
+}
+
 #concepts h2{
-	font:  normal small-caps lighter 3.5em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 3.5em/1 'lato';	
+	font:  normal small-caps lighter 3.5em/1 'Roboto Slab';/* old browsers */
+	font:  expanded normal small-caps lighter 3.5em/1 'Roboto Slab';	
 
 }
 
@@ -652,6 +666,7 @@ header nav ul{
 	text-align: justify;
 	float: right;
 	width: 40%;
+	margin-top: 5%;
 	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
 	font:  expanded normal small-caps lighter 2em/1 'lato';	
 
@@ -664,8 +679,7 @@ header nav ul{
 
 #concepts ul li article img{
 	display: inline;
-	width: 15%;
-	margin: 5% 5% 0;
+	width: 50%;
 	height: auto;
 	
 }
