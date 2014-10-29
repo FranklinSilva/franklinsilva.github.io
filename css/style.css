@@ -501,7 +501,6 @@ header nav ul{
 }
 
 #concepts ul li article p{
-	display: inline;
 	text-align: justify;
 	float: right;
 	width: 40%;
@@ -747,6 +746,11 @@ footer h5{
 
 .os-animation.animated{
     opacity: 1;
+}
+
+.link{
+	color: #145766;
+	text-decoration: none;
 }
 
     
