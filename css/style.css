@@ -87,9 +87,10 @@ header nav{
 	z-index: 1000;
 }
 
+
 header nav ul{
 		font-size: 1em;
-		width: 80%;
+		width: 90%;
 		padding: 0px;
 		height: 1em;
 		margin: 0 auto;
@@ -235,11 +236,10 @@ h6{color: white;visibility: hidden;}
 	width:20%; 
 	height:2em;
 	margin: 10% 40% 0;
-
-.social{fill:black;}
-.social:hover{fill:#2ccfaf;}
-	
 }
+.social{fill:black;transition:0.5s;}
+.social:hover{fill:#145766;transition:0.5s;}
+
 
 #social ul li svg{
 	display: inline;
