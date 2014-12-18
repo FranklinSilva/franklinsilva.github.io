@@ -34,7 +34,8 @@ table {
     }
 /*END CSS RESET*/ 
 
-svg{
-	width: 100%;
+#svg{
+	width: 90%;
+	background-color: black;
 	min-height: 40em;
 }
