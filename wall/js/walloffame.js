@@ -32,8 +32,8 @@ function start(){
 
 function createEl(content){
 	randomelement = getRandomInt(6, 1).toFixed(0);
-	randomcoordenadeX = getRandomInt(1, 81).toFixed(0);
-	randomcoordenadeY = getRandomInt(1, 81).toFixed(0);
+	randomcoordenadeX = getRandomInt(5, 91).toFixed(0);
+	randomcoordenadeY = getRandomInt(5, 91).toFixed(0);
 	
 	if(randomelement == 1){
 		randomelement = "gratitude";

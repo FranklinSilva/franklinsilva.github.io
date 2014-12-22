@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 /* CSS RESET */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -25,7 +27,6 @@ ol {
         list-style: decimal;
     }
     ul {
-        padding-left: 1.4em;
         list-style: square;
 }
 table {
@@ -34,8 +35,214 @@ table {
     }
 /*END CSS RESET*/ 
 
-#svg{
-	width: 90%;
-	background-color: black;
+
+#logo{
+	width: 75%;
+	height: 10%;
+	margin: 5% auto;
+	display: block;	
+}
+
+#walloffame{
+	background-color: #b3c21c;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font:  normal small-caps lighter 2em/1 'Roboto Slab';/* old browsers */
+}
+
+h1{
+	font-weight: 100;
+}
+
+svg{
+	width: 100%;
+	border-top: 5px solid #b3c21c;
+	border-bottom: 5px solid #b3c21c;
+	
 	min-height: 40em;
+}
+
+h2{
+	padding-top: 10%;
+	font:  normal small-caps 100 3em/1 'Roboto Slab';/* old browsers */
+	text-align: center;
+	color: #FF27D4;
+}
+
+h3{
+	font:  normal small-caps 400 1.5em/1 'Roboto Slab';/* old browsers */
+	text-align: center;
+	padding-top: 10%;
+	color: #5963c4;
+}
+
+#banner img{
+	width: 100%;
+}
+
+article p{
+	margin: 5% auto 10% auto;
+	text-align: justify;
+	width: 80%;
+	font:  normal small-caps 800 1em/1 'Roboto Slab';/* old browsers */
+	color: black;
+
+}
+
+#linkstogo{
+	width: 70%;
+	margin: 0 auto;
+}
+
+iframe{
+	width: 222px; 
+	height:445px;
+}
+
+#social{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.social{fill:#b3c21c;transition:0.5s;}
+.social:hover{fill:#6B0D58;transition:0.5s;}
+
+
+#social ul li svg{
+	display: inline;
+	margin:0 auto;
+}
+
+#social svg{
+	width: 15%;
+	display: inline;
+	margin: 0 auto;
+	border-top: 0px solid #b3c21c;
+	border-bottom: 0px solid #b3c21c;
+	
+	min-height: 1em;
+
+}
+
+#social ul{
+	padding-top: 10%;
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+#social ul li{
+	text-align: center;
+	display: inline;
+	padding: 0 5%;
+	margin: 0 auto;
+	
+}
+
+#social ul li a{
+	text-decoration: none;
+}
+
+footer{
+	background-color: #5963c4;	
+}
+
+footer h5{
+	text-align: center;
+	font:  normal small-caps lighter 1.6em/1 'Roboto Slab';/* old browsers */
+	text-decoration: none;
+	color: white;
+	padding: 10% 5%;
+}
+
+@media screen and (min-width: 37em){
+body{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #d6d6d6;
+}
+#container{
+	background-color: #ffffff;
+}
+#logo{
+	width: 75%;
+	height: 10%;
+	margin: 0 auto;
+	padding: 10% 0;
+	display: block;	
+}
+
+#walloffame{
+	font:  normal small-caps lighter 2.5em/1 'Roboto Slab';/* old browsers */
+}
+
+
+article p{
+	font:  normal small-caps 800 1.5em/1 'Roboto Slab';/* old browsers */
+
+}
+
+#thankyou article{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+
+#linkstogo{
+padding: 10%;
+	width: 30%;
+	margin: 0 auto;
+	float: right;
+}
+
+#social{
+padding: 10% 0 0;
+	width: 100%;
+	margin: 0 auto;
+	}
+
+
+#social svg{
+	width: 10%;
+	display: inline;
+	margin: 0 auto;
+	border-top: 0px solid #b3c21c;
+	border-bottom: 0px solid #b3c21c;
+	
+	min-height: 1em;
+
+}
+
+#social ul{
+	padding-top: 10%;
+	text-align: center;
+}
+
+#social ul li{
+	text-align: center;
+	display: inline;
+	padding: 0 5%;
+	margin: 0 auto;
+	
+}
+
+#social ul li a{
+	text-decoration: none;
+}
+
+social h3{
+	font:  normal small-caps 400 1.5em/1 'Roboto Slab';/* old browsers */
+	text-align: center;
+	padding-top: 10%;
+	color: #5963c4;
+}
+
+
+footer h5{
+	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+	padding: 5% 5%;
+}
+
+	
 }

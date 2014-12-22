@@ -1,6 +1,6 @@
 .gratitude{
 	text-anchor: middle;
-	font-size: 5em;
+	font-size: 3em;
 	stroke: green;
 	fill:none;
 	letter-spacing: 2;
@@ -24,7 +24,7 @@
 
 .kind{
 	text-anchor: middle;
-	font-size: 6em;
+	font-size: 2em;
 	stroke: orange;
 	fill:none;
 	letter-spacing: 2;
@@ -47,7 +47,7 @@
 
 .faithful{
 	text-anchor: middle;
-	font-size: 8em;
+	font-size: 1.5em;
 	stroke: pink;
 	fill:none;
 	letter-spacing: 2;
@@ -70,7 +70,7 @@
 
 .happiness{
 	text-anchor: middle;
-	font-size: 10em;
+	font-size: 2.5em;
 	stroke: violet;
 	fill:none;
 	letter-spacing: 2;
@@ -93,7 +93,7 @@
 
 .harmony{
 	text-anchor: middle;
-	font-size: 7em;
+	font-size: 2em;
 	stroke: lightblue;
 	fill:none;
 	letter-spacing: 2;
@@ -113,6 +113,7 @@
       animation-duration: 1.5s;
       animation-iteration-count: infinite;
 }
+
 
 /*ANIMATION*/
 
