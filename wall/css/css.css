@@ -86,7 +86,7 @@ article p{
 	margin: 5% auto 10% auto;
 	text-align: justify;
 	width: 80%;
-	font:  normal small-caps 800 1em/1 'Roboto Slab';/* old browsers */
+	font:  normal small-caps lighter 1em/1 'Roboto Slab';/* old browsers */
 	color: black;
 
 }
@@ -145,7 +145,13 @@ iframe{
 }
 
 footer{
-	background-color: #5963c4;	
+	background-color: #5963c4;
+	min-height: 10em;	
+}
+
+footer h6 a{
+	color: orange;
+	text-decoration: none;
 }
 
 footer h5{
@@ -154,6 +160,23 @@ footer h5{
 	text-decoration: none;
 	color: white;
 	padding: 10% 5%;
+}
+
+
+
+footer h6{
+	text-align: center;
+	font:  normal small-caps lighter 1.2em/1 'Roboto Slab';/* old browsers */
+	margin: 0 auto;
+	color: white;
+}
+
+footer p{
+	text-align: center;
+	font:  normal small-caps lighter 1em/1 'Roboto Slab';/* old browsers */
+	margin: 0 auto;
+	color: white;
+	margin: 5%;
 }
 
 #disabled{
@@ -183,7 +206,7 @@ body{
 
 
 article p{
-	font:  normal small-caps 800 1.5em/1 'Roboto Slab';/* old browsers */
+	font:  normal small-caps lighter 1.5em/1 'Roboto Slab';/* old browsers */
 
 }
 
@@ -279,7 +302,7 @@ footer h5{
 
 
 article p{
-	font:  normal small-caps 800 1.5em/1 'Roboto Slab';/* old browsers */
+	font:  normal small-caps lighter 1.5em/1 'Roboto Slab';/* old browsers */
 
 }
 
