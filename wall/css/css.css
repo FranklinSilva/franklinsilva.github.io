@@ -281,7 +281,7 @@ footer h5{
 
 @media screen and (min-width: 55em){
 	body{
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 	background-color: #d6d6d6;
 }
@@ -370,6 +370,6 @@ social h3{
 
 footer h5{
 	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	padding: 5% 5%;
+	padding: 5% 5% 10%;
 }
 }
