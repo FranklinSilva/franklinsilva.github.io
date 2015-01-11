@@ -98,7 +98,7 @@ function start(){
 		createEl(list[i]);
 		}
 	for (var i = 0; i < hList.length; i++) {
-		createElH(hList[i]);
+		createSpecial(hList[i]);
 
 	};
 }
@@ -138,7 +138,7 @@ function createEl(content){
 	//document.getElementById(""+content).innerHTML = ''+content;
 }
 
-function createElH(content){
+function createSpecial(content){
 	randomelement = 1;
 	randomcoordenadeX = getRandomInt(5, 91).toFixed(0);
 	randomcoordenadeY = getRandomInt(5, 91).toFixed(0);
