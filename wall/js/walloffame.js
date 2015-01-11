@@ -96,7 +96,7 @@ var hList = [
 function start(){
 	for (var i = 0; i <list.length; i++){
 		createEl(list[i]);
-		createELH(hList[i]);
+		createElH(hList[i]);
 		}
 
 }
