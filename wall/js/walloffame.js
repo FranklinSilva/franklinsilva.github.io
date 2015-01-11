@@ -140,8 +140,8 @@ function createEl(content){
 
 function createSpecial(content){
 	randomelement = 1;
-	randomcoordenadeX = getRandomInt(5, 91).toFixed(0);
-	randomcoordenadeY = getRandomInt(5, 91).toFixed(0);
+	randomcoordenadeX = getRandomInt(10, 70).toFixed(0);
+	randomcoordenadeY = getRandomInt(10, 70).toFixed(0);
 
 if(randomelement == 1){
 		randomelement = "special";

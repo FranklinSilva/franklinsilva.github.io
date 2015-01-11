@@ -118,7 +118,7 @@
   text-anchor: middle;
   font-size: 4em;
   stroke: none;
-  fill:red;
+  fill: #E05151;
   letter-spacing: 2;
   -webkit-animation-name: fadeIn;
       -webkit-animation-duration: 1.5s;
