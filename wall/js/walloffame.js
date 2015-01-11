@@ -96,9 +96,11 @@ var hList = [
 function start(){
 	for (var i = 0; i <list.length; i++){
 		createEl(list[i]);
-		createElH(hList[i]);
 		}
+	for (var i = 0; i < hList.length; i++) {
+		createElH(hList[i]);
 
+	};
 }
 
 function createEl(content){
@@ -137,10 +139,13 @@ function createEl(content){
 }
 
 function createElH(content){
-	randomelement = "special";
+	randomelement = 1;
 	randomcoordenadeX = getRandomInt(5, 91).toFixed(0);
 	randomcoordenadeY = getRandomInt(5, 91).toFixed(0);
 
+if(randomelement == 1){
+		randomelement = "special";
+	}
 	
 	var svg = document.getElementsByTagName('svg')[0];
 	var newtext = document.createElementNS("http://www.w3.org/2000/svg","text");
