@@ -114,6 +114,29 @@
       animation-iteration-count: infinite;
 }
 
+.special{
+  text-anchor: middle;
+  font-size: 4em;
+  stroke: none;
+  fill:red;
+  letter-spacing: 2;
+  -webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 1.5s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 1.5s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 1.5s;
+      animation-name: fadeIn;
+       -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 1.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 1.5s;
+      -o-animation-iteration-count: infinite;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+}
+
 
 /*ANIMATION*/
 

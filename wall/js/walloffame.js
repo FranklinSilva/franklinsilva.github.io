@@ -71,14 +71,32 @@ var list = [
 "hope Schall- Buchanan",
 "Megan Curran",
 "Bipin Nagarale",
-"Padmatara"
+"Padmatara",
+"jean Scorson",
+"Elias Baumgarten",
+"Karunadevi",
+"Jan Abrahamson",
+"Seth Josephson",
+"Mary Huang",
+"Saddhajoti",
+"Gabriela Chacon",
+"Dhyana Platas",
+"Misha Cohen",
+"Carolyn Cox",
+"Keulen Kender",
+"Sudhama Lee"
 ];
 
-
+var hList = [
+"Alan Senauke",
+"Viradhamma",
+"Shalle Leeming"
+];
 
 function start(){
 	for (var i = 0; i <list.length; i++){
 		createEl(list[i]);
+		createELH(hList[i]);
 		}
 
 }
@@ -104,6 +122,24 @@ function createEl(content){
 		randomelement = "harmony";
 	}
 	
+
+	
+	var svg = document.getElementsByTagName('svg')[0];
+	var newtext = document.createElementNS("http://www.w3.org/2000/svg","text");
+	newtext.setAttribute('id', ''+content);
+	newtext.setAttribute('x', ''+randomcoordenadeX+'%');
+	newtext.setAttribute('y', ''+randomcoordenadeY+'%');
+	newtext.setAttribute('class', ''+randomelement);
+	svg.appendChild(newtext);
+	var textcontent = document.createTextNode(""+content);
+	newtext.appendChild(textcontent);	
+	//document.getElementById(""+content).innerHTML = ''+content;
+}
+
+function createElH(content){
+	randomelement = "special";
+	randomcoordenadeX = getRandomInt(5, 91).toFixed(0);
+	randomcoordenadeY = getRandomInt(5, 91).toFixed(0);
 
 	
 	var svg = document.getElementsByTagName('svg')[0];
