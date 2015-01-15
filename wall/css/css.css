@@ -272,7 +272,7 @@ padding: 10% 0 0;
 #social h3{
 	font:  normal small-caps 400 1.5em/1 'Roboto Slab';/* old browsers */
 	text-align: center;
-	padding-top: 10%;
+	margin-top: 7%;
 	color: #5963c4;
 }
 
@@ -379,7 +379,7 @@ padding: 10% 0 0;
 #social h3{
 	font:  normal small-caps 400 2.5em/1 'Roboto Slab';/* old browsers */
 	text-align: center;
-	padding-top: 10%;
+	margin-top: 7%;
 	color: #5963c4;
 }
 
