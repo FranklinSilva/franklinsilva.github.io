@@ -84,13 +84,27 @@ var list = [
 "Misha Cohen",
 "Carolyn Cox",
 "Keulen Kender",
-"Sudhama Lee"
+"Sudhama Lee",
+"Franklin Silva",
+"Terri Pon",
+"Lucy Rodriguez",
+"Nilesh Raut",
+"Stephanie Pratt",
+"Eva",
+"Peter Nowell",
+"Pratima",
+"Steve Slusarenko",
+"Vijayadipa",
+"Carolyn Cox"
 ];
 
 var hList = [
 "Alan Senauke",
 "Viradhamma",
-"Shalle Leeming"
+"Shalle Leeming",
+"Drew Folta",
+"Nora Beck Judd",
+"Viveka Chen"
 ];
 
 function start(){
