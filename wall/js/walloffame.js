@@ -104,7 +104,10 @@ var hList = [
 "Shalle Leeming",
 "Drew Folta",
 "Nora Beck Judd",
-"Viveka Chen"
+"Viveka Chen",
+"Bipin",
+"Keulen Kender",
+"Misha Cohen"
 ];
 
 function start(){
