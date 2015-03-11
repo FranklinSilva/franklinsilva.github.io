@@ -98,7 +98,9 @@
 	padding: 0.5em 0 1em;
 	color: #ef6e7e;
 	text-align: center;
-	font-size: 2em;
+	font-variant: small-caps;
+	font-size: 3em;
+	font-weight: 300;
 	line-height: 1;
 }
 
@@ -119,6 +121,8 @@
 	width: 100%;
 	border-radius: 8px;
 	color: #d3d3d3;
+		box-shadow: -5px -10px 30px #666, 6px 9px 15px #666;
+
 }
 
 .ip-main .aranha{
@@ -130,6 +134,18 @@
 .aranha img{
 	width: 35%;
 }
+
+.teia{
+	z-index: 10000;
+	position: absolute;
+	top: 131%;
+	right: -36%;
+}
+
+.teia img{
+	width: 35%;
+}
+
 .browser {
 	margin: 0 auto;
 	padding: 2%;
@@ -138,7 +154,7 @@
 	width: 100%;
 	border-radius: 8px;
 	background: #fff;
-	color: #d3d3d3;
+	color: #999;
 }
 
 .browser img{
@@ -154,22 +170,37 @@
 #where a{
 	display: block;
 	margin: 2% 40% 0;
-	background-color: #ef6e7e;
+	background-color: #91a7e8;
+	border: 3px solid #6984c9;
 	padding: 2%;
-	width: 20%;
 	color: #fff;
+	font-weight: 800;
 	text-align: center;
 	border-radius: 8px;
+	transition: 2s;
+}
+
+#where h2{
+	margin: 0;
+	padding: 2%;
+	color: #fff;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 1;
 }
 
 #where a:hover{
-	background-color: #871c1c;
-	transition: 2s;
+	background-color: #6984c9;
+	transition: 1s;
+		border-radius: 12px;
 }
 
 #where img{
 	width: 100%;
-	border-radius: 50px;
+	border-radius: 12px;
+
 }
 
 .box {
