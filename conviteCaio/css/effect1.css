@@ -135,17 +135,6 @@
 	width: 45%;
 }
 
-.teia{
-	z-index: 10000;
-	position: absolute;
-	top: 131%;
-	right: -36%;
-}
-
-.teia img{
-	width: 35%;
-}
-
 .browser {
 	margin: 0 auto;
 	padding: 2%;
@@ -452,5 +441,58 @@
 	.box {
 		width: 100%%;
 	}
+
+
+}
+@media screen and (min-width: 37em) and (max-width: 55em){
+	
+	.aranha img{
+	width: 35%;
+	
+}
+#fotos img{
+	margin: 2% 20%;
+	width: 60%;
+	
+}
+
+#where a{
+	margin: 2% 35% 0;
+}
+
+}
+
+@media screen and (max-width: 37em){
+
+#fotos img{
+	margin: 2% 10%;
+	width: 80%;
+	
+}
+
+.ip-main .aranha{
+	top:20%;
+}
+
+.browser p{
+	font-size: 1em;
+}
+
+
+browser img {
+  width: 80%;
+  margin: 2% 10%;
+
+}
+
+.ip-main #where {
+	min-height: 100px;
+	padding: 5% 2%;
+	
+}
+
+#where a{
+	margin: 2% 10% 0;
+}
 
 }
