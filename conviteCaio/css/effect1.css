@@ -239,6 +239,26 @@
 	
 }
 
+#fotos a{
+	display: block;
+	margin: 0;
+	background-color: #e26868;
+	border: 3px solid #de4c4c;
+	padding: 2%;
+	color: #fff;
+	font-weight: 800;
+	text-align: center;
+	border-radius: 8px;
+	transition: 2s;
+}
+
+#fotos a:hover{
+	background-color: #de4c4c;
+	transition: 1s;
+		border-radius: 12px;
+}
+
+
 .box {
 	float: left;
 	padding: 3.5em;
