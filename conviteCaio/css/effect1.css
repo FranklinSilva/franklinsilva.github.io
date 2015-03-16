@@ -158,8 +158,9 @@
 }
 
 .browser img{
-	width: 40%;
-}
+  width: 70%;
+  margin: 2% 15%;
+  }
 
 .browser p{	
 	width: 75%;
@@ -234,6 +235,7 @@
 
 #fotos img{
 	margin: 2% 25%;
+	width: 50%;
 	
 }
 
