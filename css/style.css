@@ -4,53 +4,53 @@
 /* CSS RESET */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-    pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
-    q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
-    dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
-    thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
-    footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
-    audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        vertical-align: baseline;
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
-    article, aside, details, figcaption, figure, footer, header, hgroup, menu,
-    nav, section {
-        display: block;
-    }
-    body {
-        line-height: 1.2;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
 }
 ol {
-        padding-left: 1.4em;
-        list-style: decimal;
-    }
-    ul {
-        padding-left: 1.4em
-        list-style: square;
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em
+	list-style: square;
 }
 table {
-        border-collapse: collapse;
-        border-spacing: 0;
-    }
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /*END CSS RESET*/    
 
 body{
-        width:100%;
-        margin:0 auto;
-    }
+	width:100%;
+	margin:0 auto;
+}
 
 header{
 	width: 100%;
-	min-height: 35em;
+    min-height: 100vh;
 	background: url(../images/IMG_6894P.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  float: left;
-  }
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	float: left;
+}
 
 header nav{
 	padding: 3% 0;
@@ -90,57 +90,56 @@ header nav{
 
 
 header nav ul{
-		font-size: 1em;
-		width: 90%;
-		padding: 0px;
-		height: 1em;
-		margin: 0 auto;
-		text-align: center;
-		list-style:none;
-	}
+	font-size: 1em;
+	width: 90%;
+	padding: 0px;
+	height: 1em;
+	margin: 0 auto;
+	text-align: center;
+	list-style:none;
+}
 
 header nav ul li{
-		display: inline;
-		margin: 0 2%;
-	}
+	display: inline;
+	margin: 0 2%;
+}
 
 header nav ul li a{
-		padding: 1% 2%;
-		margin: 0 auto;
-		font-size: 1em;
-		color: #333;
-		text-decoration: none;
-		height: 1em;
-		transition 1s;
-		-webkit-transition: 1s;
-		font-family: 'lato';
+	padding: 1% 2%;
+	margin: 0 auto;
+	font-size: 1em;
+	color: #333;
+	text-decoration: none;
+	height: 1em;
+	transition 1s;
+	-webkit-transition: 1s;
+	font-family: 'lato';
 
-	}
+}
 
 header nav ul li a:hover{
-		color: #666;
-		transition: 1s;
+	color: #666;
+	transition: 1s;
 
-	}    
+}    
 
 
 #about{
-	background-color: white;
+	background-color: #f9f9f9;
 }
 
 #about ul{
-		width: 100%;
-		padding: 0px;
-		margin: 0 auto;
-		text-align: center;
-		list-style:none;
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+	list-style:none;
 }
 
 #about ul li{
 	list-style: none;
 	display: inline-block;
-	padding: 10% 12%;
-	margin: 0 auto;
+	margin: 1% 10%;
 	text-align: center;
 	
 }
@@ -169,18 +168,19 @@ h6{color: white;visibility: hidden;}
 /*END*/
 
 #about p{
-	margin: 5%;
+	margin: 5% auto;
 	text-align: justify;
 	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 1em/1 'lato';	
+	font:  expanded normal small-caps lighter 1em/1 'lato';
+	max-width: 30em;
 
 }
 
 /* SVG */
 
 #about svg{
-	width: 60px; 
-	height: 73px;
+	width: 10%; 
+	height: 10%;
 }
 
 .htC{fill: #F16529;transition:0.5s;}
@@ -256,10 +256,10 @@ h6{color: white;visibility: hidden;}
 	min-height: 15em;
 	width: 100%;
 	background: url(../images/ssa.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 }
 
@@ -282,10 +282,11 @@ h6{color: white;visibility: hidden;}
 }
 
 #concepts{
+	background: #f9f9f9;
 }
 
 #concepts h2{
-		padding: 5%;
+	padding: 5%;
 	text-align: center;
 	font:  normal small-caps lighter 2em/1 'Roboto Slab';/* old browsers */
 	font:  expanded normal small-caps lighter 2em/1 'Roboto Slab';	
@@ -318,8 +319,7 @@ h6{color: white;visibility: hidden;}
 #concepts ul li article img{
 	width: 100%;
 	margin: 0 auto;
-	height: auto;
-	
+	height: auto;	
 }
 
 #dropLine{
@@ -340,7 +340,7 @@ h6{color: white;visibility: hidden;}
 }
 
 #dropLine div{
-	background-color: white;
+	background-color: #f9f9f9;
 	margin: 10%;
 	min-height: 10em;
 	
@@ -377,11 +377,11 @@ div#social{
 }
 
 div#social ul{
-		width: 100%;
-		padding-top: 10%;
-		margin: 0 auto;
-		text-align: center;
-		list-style:none;
+	width: 100%;
+	padding-top: 10%;
+	margin: 0 auto;
+	text-align: center;
+	list-style:none;
 }
 
 div#social ul li{
@@ -420,333 +420,335 @@ footer h5{
 }        
 @media screen and (min-width: 37em) and (max-width: 50em){
 
-header{
+	header{
 		background: url(../images/IMG_6894PT.jpg) no-repeat 90% 30%;
 	}
 	#salvador{
 		background: url(../images/ssa.jpg) no-repeat center center;
 	}
 
-header{
-	min-height: 40em;
-}
+	header{
+		min-height: 40em;
+	}
 
-header img{
-	left: 38%;
-	padding-top: 30%;
-	width: 25%;
-}
+	header img{
+		left: 38%;
+		padding-top: 30%;
+		width: 25%;
+	}
 
-header h1{
-	margin: 40% 0 0 30%;
-	font:  normal small-caps lighter 4.5em/1 'Roboto Slab';/* old browsers */
-	font:  extra-expanded normal small-caps lighter 4.5em/1 'Roboto Slab';
-	/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
-	
-}
+	header h1{
+		margin: 40% 0 0 30%;
+		font:  normal small-caps lighter 4.5em/1 'Roboto Slab';/* old browsers */
+		font:  extra-expanded normal small-caps lighter 4.5em/1 'Roboto Slab';
+		/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
+
+	}
 
 
-header h2{
-	margin: 5% 0 0 30%;
-	text-align: center;
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
-}
+	header h2{
+		margin: 5% 0 0 30%;
+		text-align: center;
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';	
+	}
 
-header nav ul{
+	header nav ul{
 		font-size: 1.5em;
-		}
-#about h3{
-	text-align: center;
-	font:  normal small-caps lighter 2.5em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2.5em/1 'lato';	
-}
+	}
+	#about h3{
+		text-align: center;
+		font:  normal small-caps lighter 2.5em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2.5em/1 'lato';	
+	}
 
-#about p{
-	margin: 5%;
-	text-align: justify;
-	font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 1.5em/1 'lato';	
+	#about p{
+		margin: 5%;
+		text-align: justify;
+		font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 1.5em/1 'lato';	
 
-}
+	}
 
-#about svg{
-	width: 120px; 
-	height: 146px;
-}
-
-
-
-#salvador h3{
-	margin: 5% 5% 5% 50%;
-	text-align: right;
-	font:  normal normal lighter 2.5em/1 'Roboto Slab';/* old browsers */
-	font:  extra-expanded normal normal lighter 2.5em/1 'Roboto Slab';
-}
-
-#salvador h4{
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
-}
-
-#concepts h2{
-	font:  normal small-caps lighter 4em/1 'Roboto Slab';/* old browsers */
-	font:  expanded normal small-caps lighter 4em/1 'Roboto Slab';	
-
-}
-
-#concepts h3{
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
-
-}
-
-#concepts ul li article p{
-	text-align: justify;
-	float: right;
-	width: 40%;
-	margin-top: 5%;
-	font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 1em/1 'lato';	
-
-}
-
-#concepts ul li{
-	margin: 5%;
-	list-style: none;
-}
-
-#concepts ul li article img{
-	display: inline;
-	width: 50%;
-	margin: 0 auto;
-	height: auto;
-	
-}
-
-#dropLine h3{
-	font:  normal small-caps lighter 2.5em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2.5em/1 'lato';
-}
+	#about svg{
+		width: 120px; 
+		height: 146px;
+	}
 
 
-#dropLine div h5{
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';
-}
 
-#dropLine div h4{
-	font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 1.5em/1 'lato';	
-}
+	#salvador h3{
+		margin: 5% 5% 5% 50%;
+		text-align: right;
+		font:  normal normal lighter 2.5em/1 'Roboto Slab';/* old browsers */
+		font:  extra-expanded normal normal lighter 2.5em/1 'Roboto Slab';
+	}
 
-div#social{
-	width: 100%;
-	min-height: 5em;
-	margin: 0;
-	padding-bottom: 10%;
-	background-color: #f0f0f0;
+	#salvador h4{
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';	
+	}
 
-}
+	#concepts h2{
+		font:  normal small-caps lighter 4em/1 'Roboto Slab';/* old browsers */
+		font:  expanded normal small-caps lighter 4em/1 'Roboto Slab';	
+
+	}
+
+	#concepts h3{
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';	
+
+	}
+
+	#concepts ul li article p{
+		text-align: justify;
+		float: right;
+		width: 40%;
+		margin-top: 5%;
+		font:  normal small-caps lighter 1em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 1em/1 'lato';	
+
+	}
+
+	#concepts ul li{
+		margin: 5%;
+		list-style: none;
+	}
+
+	#concepts ul li article img{
+		display: inline;
+		width: 50%;
+		margin: 0 auto;
+		height: auto;
+
+	}
+
+	#dropLine h3{
+		font:  normal small-caps lighter 2.5em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2.5em/1 'lato';
+	}
 
 
-div#social ul li{
-	text-align: center;
-	display: inline;
-	padding: 10% 5%;
-	margin: 0 auto;
-	
-}
+	#dropLine div h5{
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';
+	}
 
-#social ul li svg{
-	width:4em; 
-	height:4em;
-}
+	#dropLine div h4{
+		font:  normal small-caps lighter 1.5em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 1.5em/1 'lato';	
+	}
+
+	div#social{
+		width: 100%;
+		min-height: 5em;
+		margin: 0;
+		padding-bottom: 10%;
+		background-color: #f0f0f0;
+
+	}
+
+
+	div#social ul li{
+		text-align: center;
+		display: inline;
+		padding: 10% 5%;
+		margin: 0 auto;
+
+	}
+
+	#social ul li svg{
+		width:4em; 
+		height:4em;
+	}
 
 }
 @media (min-width: 50em){
 
-body{
-	width:100%;
-}
+	body{
+		width:100%;
+	}
 
-header{
-	width: 100%;
-	min-height: 60em;
-	background: url(../images/IMG_6894PTF.jpg) no-repeat 50% 10% fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  float: left;
-  }
-  
+	header{
+		width: 100%;
+		min-height: 60em;
+		background: url(../images/IMG_6894PTF.jpg) no-repeat 50% 10% fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		float: left;
+	}
 
-  header h1{
-	margin: 30% 0 0 35%;
-	text-align: center;
-	font:  normal small-caps lighter 5em/1 'Roboto Slab';/* old browsers */
-	font:  extra-expanded normal small-caps lighter 5em/1 'Roboto Slab';
-	/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
-	
-}
+
+	header h1{
+		margin: 30% 0 0 35%;
+		text-align: center;
+		font:  normal small-caps lighter 5em/1 'Roboto Slab';/* old browsers */
+		font:  extra-expanded normal small-caps lighter 5em/1 'Roboto Slab';
+		/*font: [font-stretch] [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];*/
+
+	}
 
 	header h2{
-	margin: 0 0 0 35%;
-	text-align: center;
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
-}
+		margin: 0 0 0 35%;
+		text-align: center;
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';	
+	}
 
-header nav ul{
+	header nav ul{
 		font-size: 1.5em;
-		}
-#about h3{
-	text-align: center;
-	font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 3em/1 'lato';	
-}
+	}
+	#about h3{
+		text-align: center;
+		font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 3em/1 'lato';	
+	}
 
-#about p{
-	margin: 5%;
-	text-align: justify;
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
+	#about p{
+		text-align: justify;
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';	
 
-}
+	}
 
-#about svg{
-	width: 120px; 
-	height: 146px;
-}
+	#about svg{
+		width: 120px; 
+		height: 146px;
+	}
 
-#about ul li{
-	list-style: none;
-	display: inline-block;
-	padding: 5%;
-	margin: 0 auto;
-	text-align: center;
-	
-}
+	#about ul li{
+		list-style: none;
+		display: inline-block;
+		padding: 5%;
+		margin: 0 auto;
+		text-align: center;
 
-#salvador h3{
-	margin: 0 5% 2% 50%;
-	text-align: right;
-	font:  normal normal lighter 3.5em/1 'Roboto Slab';/* old browsers */
-	font:  extra-expanded normal normal lighter 3.5em/1 'Roboto Slab';
-}
+	}
 
-#salvador h4{
-	padding-bottom: 0%;
-	margin: 5% auto;
-	font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 3em/1 'lato';	
-}
+	#salvador h3{
+		margin: 0 5% 2% 50%;
+		text-align: right;
+		font:  normal normal lighter 3.5em/1 'Roboto Slab';/* old browsers */
+		font:  extra-expanded normal normal lighter 3.5em/1 'Roboto Slab';
+	}
 
-#concepts{
-	margin: 0 auto;
-	width: 80%;
-	
-}
+	#salvador h4{
+		padding-bottom: 0%;
+		margin: 5% auto;
+		font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 3em/1 'lato';	
+	}
 
-#concepts h2{
-	font:  normal small-caps lighter 3.5em/1 'Roboto Slab';/* old browsers */
-	font:  expanded normal small-caps lighter 3.5em/1 'Roboto Slab';	
+	#concepts{
+		width: 100%;
+	}
 
-}
+	#concepts h2{
+		font:  normal small-caps lighter 3.5em/1 'Roboto Slab';/* old browsers */
+		font:  expanded normal small-caps lighter 3.5em/1 'Roboto Slab';	
+
+	}
 
 
-#concepts h3{
-	font:  normal small-caps lighter 3.5em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 3.5em/1 'lato';	
+	#concepts h3{
+		font:  normal small-caps lighter 3.5em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 3.5em/1 'lato';	
 
-}
+	}
 
-#concepts ul li article p{
-	display: inline;
-	text-align: justify;
-	float: right;
-	width: 40%;
-	margin-top: 5%;
-	font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 2em/1 'lato';	
+	#concepts ul li article p{
+		display: inline;
+		text-align: justify;
+		float: right;
+		width: 40%;
+		margin-top: 5%;
+		font:  normal small-caps lighter 2em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 2em/1 'lato';	
 
-}
+	}
 
-#concepts ul li{
-	margin: 0 5% 5%;
-	list-style: none;
-}
+	#concepts ul{
+				max-width: 63em;
+				margin: 0 auto;
+	}
 
-#concepts ul li article img{
-	display: inline;
-	width: 50%;
-	height: auto;
-	
-}
+	#concepts ul li{
+		margin: 0 5% 5%;
+		list-style: none;
+	}
 
+	#concepts ul li article img{
+		display: inline;
+		width: 50%;
+		height: auto;
 
-
-#dropLine{
-	min-height: 40em;
-	float: left;
-	width: 100%;
-}
+	}
 
 
 
-#dropLine h3{
-	padding: 5% 5% 1% 5%;
-	font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
-	font:  expanded normal small-caps lighter 3em/1 'lato';
-}
-
-#dropLine div{
-	min-height: 10em;
-	background-color: white;
-	margin: 2% 10%;
-	width: 30%;
-	float: left;
-}
-
-div#social{
-	width: 100%;
-	min-height: 2em;
-	margin: 0;
-	padding-bottom: 2%;
-	background-color: #f0f0f0;
-
-}
+	#dropLine{
+		min-height: 40em;
+		float: left;
+		width: 100%;
+	}
 
 
-div#social ul li{
-	text-align: center;
-	display: inline;
-	padding: 5% 5%;
-	margin: 0 auto;
-	
-}
 
-#social ul li svg{
-	width:4em; 
-	height:4em;
-}
+	#dropLine h3{
+		padding: 5% 5% 1% 5%;
+		font:  normal small-caps lighter 3em/1 'lato';/* old browsers */
+		font:  expanded normal small-caps lighter 3em/1 'lato';
+	}
 
-footer{
-	width: 100%;
-	float: left;
-}
+	#dropLine div{
+		min-height: 10em;
+		background-color: white;
+		margin: 2% 10%;
+		width: 30%;
+		float: left;
+	}
 
-footer h5{
-	padding: 2% 5%;
-}
+	div#social{
+		width: 100%;
+		min-height: 2em;
+		margin: 0;
+		padding-bottom: 2%;
+		background-color: #f0f0f0;
+
+	}
+
+
+	div#social ul li{
+		text-align: center;
+		display: inline;
+		padding: 5% 5%;
+		margin: 0 auto;
+
+	}
+
+	#social ul li svg{
+		width:4em; 
+		height:4em;
+	}
+
+	footer{
+		width: 100%;
+		float: left;
+	}
+
+	footer h5{
+		padding: 2% 5%;
+	}
 }
 
 .os-animation{
-  opacity: 0;
+	opacity: 0;
 }
 
 .os-animation.animated{
-    opacity: 1;
+	opacity: 1;
 }
 
 .link{
@@ -754,4 +756,3 @@ footer h5{
 	text-decoration: none;
 }
 
-    
