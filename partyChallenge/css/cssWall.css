@@ -1,0 +1,167 @@
+.gratitude{
+	text-anchor: middle;
+	font-size: 3em;
+	stroke: green;
+	fill:none;
+	letter-spacing: 2;
+	transition: 1s;
+	-webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 3s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 3s;
+      -o-animation-iteration-count: infinite;
+      animation-name: fadeIn;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+}
+
+.kind{
+	text-anchor: middle;
+	font-size: 2em;
+	stroke: orange;
+	fill:none;
+	letter-spacing: 2;
+	-webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 2s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 2s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 2s;
+      animation-name: fadeIn;
+       -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 2s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 2s;
+      -o-animation-iteration-count: infinite;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+}
+
+.faithful{
+	text-anchor: middle;
+	font-size: 1.5em;
+	stroke: pink;
+	fill:none;
+	letter-spacing: 2;
+	-webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 3.5s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 3.5s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 3.5s;
+      animation-name: fadeIn;
+       -webkit-animation-duration: 3.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 3.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 3.5s;
+      -o-animation-iteration-count: infinite;
+      animation-duration: 3.5s;
+      animation-iteration-count: infinite;
+}
+
+.happiness{
+	text-anchor: middle;
+	font-size: 2.5em;
+	stroke: violet;
+	fill:none;
+	letter-spacing: 2;
+	-webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 2.5s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 2.5s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 2.5s;
+      animation-name: fadeIn;
+       -webkit-animation-duration: 2.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 2.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 2.5s;
+      -o-animation-iteration-count: infinite;
+      animation-duration: 2.5s;
+      animation-iteration-count: infinite;
+}
+
+.harmony{
+	text-anchor: middle;
+	font-size: 2em;
+	stroke: lightblue;
+	fill:none;
+	letter-spacing: 2;
+	-webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 1.5s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 1.5s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 1.5s;
+      animation-name: fadeIn;
+       -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 1.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 1.5s;
+      -o-animation-iteration-count: infinite;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+}
+
+.special{
+  text-anchor: middle;
+  font-size: 4em;
+  stroke: none;
+  fill: #E05151;
+  letter-spacing: 2;
+  -webkit-animation-name: fadeIn;
+      -webkit-animation-duration: 1.5s;
+      -moz-animation-name: fadeIn;
+      -moz-animation-duration: 1.5s;
+      -o-animation-name: fadeIn;
+      -o-animation-duration: 1.5s;
+      animation-name: fadeIn;
+       -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 1.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 1.5s;
+      -o-animation-iteration-count: infinite;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+}
+
+
+/*ANIMATION*/
+
+ @-webkit-keyframes fadeIn {
+      from {
+opacity: 0; }
+      to {
+        opacity: 1;
+} }
+    @-moz-keyframes fadeIn{
+      from {
+opacity: 0; }
+      to {
+        opacity: 1;
+} }
+    @-o-keyframes fadeIn{
+      from {
+opacity: 0; }
+      to {
+        opacity: 1;
+} }
+    @keyframes fadeIn{
+      from {
+opacity: 0; }
+      to {
+        opacity: 1;
+} }
+
