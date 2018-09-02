@@ -1,0 +1,173 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+*/
+/* CSS RESET */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END CSS RESET*/    
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-love {
+    background-color: #fff;
+    height: 5vh;
+    min-height: 110px;
+    padding: 0.5rem;
+    border-top: 3px solid coral;
+}
+
+.header-love--logo {
+	/*max-width: 50%;*/
+	margin: 0 auto;
+	display: block;
+}
+
+.header-love--phrase {
+	font-size: 1rem;
+	color: #404142;
+	font-weight: 200;
+	text-align: center;
+}
+
+@media screen and (min-width: 40em){
+	.header-love--phrase {
+		font-size: 2rem;
+		text-align: left;
+	}	
+}
+
+.header-love--button{
+	position: relative;
+    top: 40vh;
+    display: block !important;
+    width: 80%;
+    margin: 0 auto !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    transition: 1s;
+    text-transform: uppercase;
+}
+
+.header-love--button:hover {
+	transition: 1s;
+	background-color: coral !important;
+}
+
+.cities-impact {
+	width: 100%;
+    min-height: 95vh;
+	background: url(../img/salvador.jpg) no-repeat 30% top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.cities-impact h3 {
+	color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #404142;
+    margin: 0 5%;
+}
+
+.love-experience--bars,
+.love-experience--restaurants, 
+.love-experience--outdoor-events, 
+.love-experience--hotels{
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	border: 1px solid #626262;
+	min-height: 200px;
+}
+
+.love-experience--bars {
+    background: url(../img/red.jpg) no-repeat center left;
+}
+
+.love-experience--restaurants {
+	background: url(../img/cafe.jpg) no-repeat right center;
+}
+
+.love-experience--outdoor-events {
+	background: url(../img/swim.jpg) no-repeat left 70%;
+}
+
+.love-experience--hotels {
+	background: url(../img/hotel.jpg) no-repeat right 70%;
+}
+
+
+.list-features {
+	    border-top: 3px solid coral;
+
+}
+
+.experience-type-text {
+	font-size: 1.5rem;
+    vertical-align: sub;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 40%;
+    text-shadow: 1px 1px #404142;
+}
+
+.experiences-image {
+	//width: 80%;
+	display: block;
+	margin: 1rem auto;
+}
+
+.experiences-section--text-title {
+	font-size: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #404142;
+}
+
+.experiences-section--text-paragraph {
+	font-size: 1.2rem;
+	color: #404142;
+	text-align: center;
+	padding: 1rem;
+}
