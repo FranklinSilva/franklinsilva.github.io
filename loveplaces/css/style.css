@@ -103,7 +103,7 @@ body {
 .cities-impact {
 	width: 100%;
     min-height: 95vh;
-	background: url(../img/salvador.jpg) no-repeat 30% top fixed;
+	background: url(img/salvador.jpg) no-repeat 30% top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
