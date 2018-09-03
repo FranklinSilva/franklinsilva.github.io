@@ -240,8 +240,14 @@ body {
 }
 
 .newsletter [type=email] {
-	    height: 50px !important;
+    height: 50px !important;
     font-size: 20px !important;
+	width: 100% !important;
+	border-radius: 6px!important;
+}
+
+#mc_embed_signup_scroll {
+	text-align: center !important;
 }
 
 
@@ -269,6 +275,8 @@ body {
     background: #404142 !important;
     width: 100% !important;
     margin-bottom: 0 !important;
+    line-height: 1.1 !important;
+    padding: 0.85rem 1rem;
 }
 
 @media screen and (min-width: 64em){
