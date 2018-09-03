@@ -223,9 +223,9 @@ body {
 }
 
 .newsletter {
-	padding: 1rem;
-    text-align: center;
-    background-color: #ffae00;
+	padding: 1rem !important;
+    text-align: center !important;
+    background-color: #ffae00 !important;
 }
 
 .newsletter div#mc_embed_signup {
@@ -233,64 +233,64 @@ body {
 }
 
 .newsletter label {
-	    font-size: 20px;
-    font-family: "Open Sans";
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+	    font-size: 20px !important;
+    font-family: "Open Sans" !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important; 
 }
 
 .newsletter [type=email] {
-	    height: 50px;
-    font-size: 20px;
+	    height: 50px !important;
+    font-size: 20px !important;
 }
 
 
 
 @media screen and (min-width: 40em){
 	.newsletter .clear {
-		display: inline-block;
-	    width: 20%;
+		display: inline-block !important;
+	    width: 20% !important;
 	}
 
 	.newsletter [type=email] {
-	    width: 50%;
-	    display: inline-flex;
+	    width: 50% !important;
+	    display: inline-flex !important;
 	}
 
 	.expeciences-section {
-    	padding: 2rem 0;
+    	padding: 2rem 0 !important;
 	}
 }
 
 
 .newsletter [type=submit] {
-	font-size: 18px;
-    border-radius: 6px;
-    background: #404142;
-    width: 100%;
-    margin-bottom: 0;
+	font-size: 18px !important;
+    border-radius: 6px !important;
+    background: #404142 !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
 }
 
 @media screen and (min-width: 64em){
 
 	.newsletter label {
-    	display: inline;
-    	padding-right: 0.7rem;
+    	display: inline !important;
+    	padding-right: 0.7rem !important;
 	}
 
 	.newsletter [type=email] {
-	    height: auto;
-    	font-size: 16px;
-    	margin-bottom: 0;
+	    height: auto !important;
+    	font-size: 16px !important;
+    	margin-bottom: 0 !important;
 	}
 
 	.expeciences-section {
-    	padding: 1rem 0;
+    	padding: 1rem 0 !important;
 	}
 
 	.newsletter [type=submit] {
-		font-size: 15px;
-	    margin-bottom: 3px;
+		font-size: 15px !important;
+	    margin-bottom: 3px !important;
 	}
 }
 
