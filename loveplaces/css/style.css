@@ -103,7 +103,7 @@ body {
 .cities-impact {
 	width: 100%;
     min-height: 95vh;
-	background: url(../img/salvador.JPG) no-repeat 30% top fixed;
+	background: url(../img/salvador.JPG) no-repeat 30% center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -163,7 +163,7 @@ body {
 }
 
 .love-experience--outdoor-events {
-	background: url(../img/swim.JPG) no-repeat left 70%;
+	background: url(../img/swim.JPG) no-repeat center 70%;
 }
 
 .love-experience--hotels {
