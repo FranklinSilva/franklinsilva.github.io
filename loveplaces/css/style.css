@@ -112,7 +112,7 @@ body {
 
 @media screen and (min-width: 40em){
 	.cities-impact{
-		min-height: 82vh;
+		min-height: 89vh;
 	}
 }
 
@@ -157,18 +157,30 @@ body {
 
 .love-experience--bars {
     background: url(../img/red2.jpg) no-repeat center center;
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .love-experience--restaurants {
 	background: url(../img/cafe.JPG) no-repeat right center;
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .love-experience--outdoor-events {
 	background: url(../img/swim.JPG) no-repeat center 70%;
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .love-experience--hotels {
 	background: url(../img/hotel.JPG) no-repeat right 70%;
+		-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 
@@ -201,8 +213,9 @@ body {
 
 	    font-size: 20px;
     margin-left: -2.13px;
-    line-height: 1.04;
+    line-height: 1.4;
     letter-spacing: -.015em;
+    margin: 0.5rem auto;
 }
 
 .experiences-section--text-title.large-exclusive {
