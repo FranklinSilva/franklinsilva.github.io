@@ -38,7 +38,7 @@ table {
 /*END CSS RESET*/    
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .header-love {
@@ -46,7 +46,6 @@ body {
     /*height: 5vh;*/
     /*min-height: 110px;*/
     padding: 0.5rem;
-    border-top: 3px solid coral;
 }
 
 .header-love--logo {
