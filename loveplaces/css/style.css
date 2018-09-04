@@ -44,7 +44,7 @@ body {
 .header-love {
     background-color: #fff;
     /*height: 5vh;*/
-    min-height: 110px;
+    /*min-height: 110px;*/
     padding: 0.5rem;
     border-top: 3px solid coral;
 }
@@ -53,6 +53,7 @@ body {
 	/*max-width: 50%;*/
 	margin: 0 auto;
 	display: block;
+	max-height: 50px;
 }
 
 .header-love--phrase {
@@ -155,7 +156,7 @@ body {
 }
 
 .love-experience--bars {
-    background: url(../img/red.JPG) no-repeat center center;
+    background: url(../img/red.jpg) no-repeat center center;
 }
 
 .love-experience--restaurants {
@@ -187,38 +188,76 @@ body {
 }
 
 .experiences-image {
-	//width: 80%;
+	width: 80%;
 	display: block;
 	margin: 1rem auto;
 }
 
 .experiences-section--text-title {
-	font-size: 2rem;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 200;
 	color: #404142;
+
+	    font-size: 20px;
+    margin-left: -2.13px;
+    line-height: 1.04;
+    letter-spacing: -.015em;
+}
+
+.experiences-section--text-title.large-exclusive {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: #404142;
+	    font-size: 34px;
+    margin-left: -2.13px;
+    line-height: 1.04;
+    letter-spacing: -.015em;
 }
 
 .experiences-section--text-paragraph {
-	font-size: 1.2rem;
-	color: #404142;
 	text-align: center;
 	padding: 1rem;
+
+	font-size: 18px;
+    line-height: 1.58;
+    letter-spacing: -.004em;
+        letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    color: rgba(0,0,0,.84);
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 40em){
+		.expeciences-section {
+    	padding: 2rem 0;
+	}
 }
 
 @media screen and (min-width: 64em){
 
 	.experiences-section--text-title {
-		font-size: 1.2rem;
 		font-weight: 400;
 		padding: 0 1rem;
 	}
 
-	.experiences-section--text-paragraph {
-		font-size: 14px;
-		text-align: left;
+	.experiences-section--text-paragraph {		text-align: left;
 		padding: 1rem 2rem;
+		    font-size: 20px;
+	}
+
+	.experiences-image {
+		margin: 3rem auto;
+	}
+
+	.expeciences-section {
+		padding: 5rem 0;
 	}
 }
 
@@ -262,10 +301,6 @@ body {
 	    width: 50% !important;
 	    display: inline-flex !important;
 	}
-
-	.expeciences-section {
-    	padding: 2rem 0 !important;
-	}
 }
 
 
@@ -290,10 +325,6 @@ body {
 	    height: auto !important;
     	font-size: 16px !important;
     	margin-bottom: 0 !important;
-	}
-
-	.expeciences-section {
-    	padding: 1rem 0 !important;
 	}
 
 	.newsletter [type=submit] {
