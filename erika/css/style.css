@@ -6,10 +6,11 @@ body {
 }
 
 .header-love {
-    background-color: #fff;
+    /*background-color: #fff;*/
     /*height: 5vh;*/
     /*min-height: 110px;*/
-    padding: 0.5rem;
+	padding: 0.5rem;
+	position: absolute;
 }
 
 .header-love--logo {
@@ -68,11 +69,21 @@ body {
 .cities-impact {
 	width: 100%;
     min-height: 95vh;
-	background: url(../img/salvador.JPG) no-repeat 30% center;
+	background: url(../img/home.JPG) no-repeat 30% center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.cities-impact-overlay {
+	content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
 }
 
 @media screen and (min-width: 40em){

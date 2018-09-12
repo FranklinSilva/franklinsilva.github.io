@@ -28,7 +28,7 @@ ol {
 	list-style: decimal;
 }
 ul {
-	padding-left: 1.4em
+	padding-left: 1.4em;
 	list-style: square;
 }
 table {
@@ -104,17 +104,16 @@ header nav ul li{
 	margin: 0 2%;
 }
 
-header nav ul li a{
+header nav ul li a {
 	padding: 1% 2%;
 	margin: 0 auto;
 	font-size: 1em;
 	color: #333;
 	text-decoration: none;
 	height: 1em;
-	transition 1s;
+	transition: 1s;
 	-webkit-transition: 1s;
 	font-family: 'lato';
-
 }
 
 header nav ul li a:hover{
