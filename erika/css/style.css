@@ -1,8 +1,151 @@
 
-@import url('https://fonts.googleapis.com/css?family=Mukta:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700');
 
 body {
-	font-family: 'Mukta', sans-serif;
+	font-family: 'Mukta', sans-serif !important;
+}
+
+.stunning-first-section {
+	width: 100%;
+    min-height: 100vh;
+	background: url(../img/2.jpg) no-repeat 30% center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.stunning-first-section--overlay {
+	content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.stunning-box-text {
+    position: absolute;
+    top: 40%;
+}
+
+.stunning-title {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+
+.transparency-header {
+	position: relative;
+	font-size: 20px;
+	color: #fafafa;
+}
+
+.stunning-black--button{
+    display: block !important;
+    width: 200px;
+    margin: 0 auto !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    transition: 1s;
+	text-transform: uppercase;
+	background-color: #404142;
+	color: #fafafa;
+	text-align: center;
+	padding: 0.4rem;
+}
+
+.stunning-black--button:hover {
+	transition: 1s;
+	background-color: #e47343 !important;
+}
+
+.basic-section{
+	background-color: #fafafa;
+	padding: 1rem;
+}
+
+.personal-inpirational-message {
+	font-size: 1.2rem;
+	color: #404142;
+	font-weight: 300;
+	text-align: center;
+	border: 1px solid #e47343;
+	margin: 0;
+	padding: 1rem;
+}
+
+.mission-row.row {
+	max-width: none !important;
+}
+
+.mission-img {
+	min-height: 180px;
+	width: 100%;
+	background: url(../img/capa.jpg) no-repeat 30% 70%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.difference-img {
+	min-height: 250px;
+	width: 100%;
+	background: url(../img/dive.jpg) no-repeat 30% center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.mission-objective {
+	background-color: #404142;
+	color: #fafafa;
+	padding: 1rem;
+	text-align: center;
+}
+
+.icon-head-line {
+    width: 100%;
+    font-size: 30px;
+    /*margin-top: 2rem;*/
+    color: #e47343;
+}
+
+.mission-title {
+	font-size: 2em;
+	font-weight: 300;
+	margin: 1rem 0 0.5rem 0 ;
+}
+
+.mission-paragraph {
+	font-size: 1rem;
+	font-weight: 400;
+	margin: 0 0 0.5rem 0;
+}
+
+.main-color--button {
+    margin: 0 auto !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 1s;
+	background-color: #e47343;
+	color: #fafafa;
+	text-align: center;
+	padding: 0.4rem;
+	display: block;
+}
+
+.mission-difference {
+	background-color: #fafafa;
+	color: #404142;
+	padding: 1rem;
+	text-align: center;
 }
 
 .header-love {
@@ -34,57 +177,11 @@ body {
 	}	
 }
 
-.header-love--button{
-	position: relative;
-    top: 40vh;
-    display: block !important;
-    width: 80%;
-    margin: 0 auto !important;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 6px;
-    transition: 1s;
-    text-transform: uppercase;
-}
-
-.header-love--button:hover {
-	transition: 1s;
-	background-color: coral !important;
-}
-
-@media screen and (min-width: 40em){
-	.header-love--button{
-	    width: 45%;
-	}
-}
-
-@media screen and (min-width: 64em){
-	.header-love--button{
-		width: 25%;
-		top: 34vh;
-	}
-}
 
 
-.cities-impact {
-	width: 100%;
-    min-height: 95vh;
-	background: url(../img/home.JPG) no-repeat 30% center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
-.cities-impact-overlay {
-	content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.5);
-}
+
+
 
 @media screen and (min-width: 40em){
 	.cities-impact{
@@ -177,7 +274,7 @@ body {
 
 
 .list-features {
-	    border-top: 3px solid coral;
+	    border-top: 3px solid #e47343;
 
 }
 
