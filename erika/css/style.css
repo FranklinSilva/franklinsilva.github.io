@@ -8,7 +8,7 @@ body {
 .stunning-first-section {
 	width: 100%;
     min-height: 100vh;
-	background: url(../img/2.jpg) no-repeat 30% center;
+	background: url(../img/2.jpg) no-repeat 0% center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -42,6 +42,15 @@ body {
 	position: relative;
 	font-size: 20px;
 	color: #fafafa;
+	padding: 0.5rem;
+}
+
+.transparency-header img {
+	max-width: 200px;
+    background-color: white;
+    padding: 0.8rem;
+    margin: 0 auto;
+    display: block;
 }
 
 .stunning-black--button{
@@ -81,6 +90,10 @@ body {
 
 .mission-row.row {
 	max-width: none !important;
+	background-color: #404142;
+	text-align: center;
+	color: #f5f5f5;
+	justify-content: space-around;
 }
 
 .mission-img {
@@ -118,9 +131,11 @@ body {
 }
 
 .mission-title {
-	font-size: 2em;
+	font-size: 1em;
 	font-weight: 300;
 	margin: 1rem 0 0.5rem 0 ;
+	text-align: center;
+	width: 100%;
 }
 
 .mission-paragraph {
@@ -147,6 +162,70 @@ body {
 	padding: 1rem;
 	text-align: center;
 }
+
+
+@media screen and (min-width: 40em){
+	.mission-objective, .mission-difference {
+		padding: 3rem;
+	}
+}
+
+.plans-container {
+	background-color: #404142;
+	text-align: center;
+	color: #f5f5f5;
+	padding: 2rem;
+}
+
+.plans-container .row {
+	justify-content: space-around;
+}
+
+.plan-card {
+	background-color: #fafafa;
+	padding: 0.5rem;
+	max-width: 400px;
+	color: #404142;
+}
+
+.plan-card ul {
+	list-style: none;
+	padding: 0;
+	margin: 2rem 0;
+}
+
+.erika-footer{
+	color: #404142;
+	padding: 0.5rem;
+	background-color: #f5f5f5;
+}
+
+.erika-footer p {
+	margin: 0;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header-love {
     /*background-color: #fff;*/
