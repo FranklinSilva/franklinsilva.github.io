@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700');
+
+body {
+	font-family: 'Mukta', sans-serif !important;
+}
+
+/*
+	* HELPER CLASSES
+*/
+
+.no-max-width {
+	max-width: none !important; /* Faça o que eu digo, não faça o que eu faço kkkkkk... Tempos desesperadores exigem medidas desesperadas */
+}
+
+.pointer-object {
+	cursor: pointer;
+}
+
+
+
+
+/*
+	* SIGN IN / SIGN UP
+*/
+
+.bol--full-login {
+
+}
+
+.bol--full-login--img {
+	width: 100%;
+	max-height: 20vh;
+	min-height: 20vh;
+	background: url(../img/background.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media screen and (min-width: 40em) {
+	.bol--full-login--img {
+		min-height: 100vh;
+		max-height: 100vh;
+	}
+}
+
+.bol--sign-in--container, .bol--sign-up--container {
+	width: 70%;
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+
+.bol--sign-in--container--logo, .bol--sign-up--container--logo {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 40em) {
+	.bol--sign-in--container {
+		width: 50%;
+		top: 10%;
+		position: relative;	
+	}
+}
+
+
+.bol--sign-up--container--navegation-helper {
+	position: relative;
+	font-size: 16px;
+	text-align: left;
+	border-bottom: 1px solid transparent;
+	transition: 1s;
+	margin: 2rem 0;
+}
+
+.bol--sign-up--container--navegation-helper:hover {
+	border-bottom: 1px solid #404142;
+	transition: 1s;
+}
+
+
+
+
+/*
+	* Bol BUTTONS and LINKS
+*/
+
+.align-baseline {
+	align-items: baseline;
+}
+  
+input[type=submit],
+input[type=reset],
+input[type=button],
+button {
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	-webkit-appearance: button;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/* Make `a` like a button */
+a[role=button] {
+color: inherit;
+cursor: default;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+white-space: pre;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+.bol-btn {
+	color: #000000;
+	padding: 0.2rem 1rem;
+	margin: 6px 8px 6px 8px;
+	border-radius: 1px;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	transition: 1s;
+	cursor: pointer;
+	font-family: "Lato", sans-serif;
+}
+
+.bol-btn__upper {
+	text-transform: uppercase;
+}
+
+.bol-btn__primary{
+	background-color: #414042;
+	color: #ffffff;
+}
+.ev-btn__primary:hover {
+	background-color: #343335;
+	transition: 1s;
+}
+
+.bol-btn__secondary {
+	color: #ffffff;
+	background-color: #f6cc53;
+}
+.bol-btn__secondary:hover {
+	background-color: #ab8d37;
+	transition: 1s;
+}
+
+.bol-btn__third {
+	color: #ffffff;
+	background-color: #fc3d21;
+}
+.bol-btn__third:hover {
+	background-color: #fc2708;
+	transition: 1s;
+}
+
+.bol-btn__warning {
+	color: #ffffff;
+	background-color: #ff0000;
+}
+.bol-btn__warning:hover {
+	background-color: #e60000;
+	transition: 1s;
+}
+
+.bol-btn__centered {
+	width: 40%;
+	margin: 0 30%;
+	display: block;
+}
+
+.bol-link__basic {
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.bol-link {
+	color: #404142;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+}
+.bol-link:before {
+	background-color: #404142;
+	content: '';
+	height: 1px;
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: width 0.3s ease-in-out;
+	width: 100%;
+}
+  
+.bol-link:hover:before {
+	width: 0;
+}
+
+
+
+
+
+/*
+	* SOLID INPUT FROM OTHER PROJECT
+*/
+
+.solid-input {
+	background-color: #f5f5f5;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	font-family: "Lato", sans-serif;
+	font-size: 13px;
+  }
+  .solid-input:focus {
+	border: 1px solid #414042;
+  }
+  .solid-input.solid-input--valid-field {
+	border: 1px solid #118811;
+  }
+  
+  .solid-label {
+	position: relative;
+	color: #858585;
+	font-family: "Lato", sans-serif;
+	font-size: 10px;
+  }
+  
+
+
