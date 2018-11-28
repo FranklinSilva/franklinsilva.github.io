@@ -233,14 +233,91 @@ body {
 	}	
 }
 
+.hotels-section--item {
+	margin-bottom: 2rem;
+	cursor: pointer;
+}
+
+
+.collumns.small-6.medium-4.large-3.hotels-section--item {
+    background-color: #fff;
+    margin: 0 1% 2rem;
+    padding: 1rem;
+	border-radius: 6px;
+}
+
+.collumns.small-6.hotels-section--item {
+	width: 48%;
+	flex: 0 0 48%;
+}
+
+@media screen and (min-width: 40em){
+	.collumns.medium-4.hotels-section--item {
+		width: 31%;
+		flex: 0 0 31%;
+	}
+}
+
+@media screen and (min-width: 64em){
+	.collumns.large-3.hotels-section--item {
+		width: 23%;
+		flex: 0 0 23%;
+	}
+}
 
 
 
 
 
+.hotels-section--title {
+	font-size: 18px;
+	text-align: center;
+	display: block;
+} 
 
+.hotel--img {
+	width: 100px;
+	height: 100px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
 
+.hotel--img.pestana{
+	background: url(../img/hotels/pestana.png) no-repeat 30% 70%;
+}
 
+.hotel--img.monte-pascoal{
+	background: url(../img/hotels/montepascoal.png) no-repeat 30% 70%;
+}
+
+.hotel--img.sol-express{
+	background: url(../img/hotels/solExpress.png) no-repeat 30% 70%;
+}
+
+.hotel--img.grande-hotel{
+	background: url(../img/hotels/grandBarra.png) no-repeat 30% 70%;
+}
+
+.hotel--img.colonial-chile{
+	background: url(../img/hotels/colonialChile.png) no-repeat 30% 70%;
+}
+
+.hotel--img.hospeda-salvador{
+	background: url(../img/hotels/hospedaSalvador.png) no-repeat 30% 70%;
+}
+
+.hotel--img.suites-pelo{
+	background: url(../img/hotels/suitesdoPelo.png) no-repeat 30% 70%;
+}
+
+.hotel--img.porto-barra{
+	background: url(../img/hotels/default.png) no-repeat 30% 70%;
+}
 
 
 

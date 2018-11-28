@@ -5,6 +5,13 @@ body {
 	font-family: 'Mukta', sans-serif !important;
 }
 
+
+
+/*
+	@media screen and (min-width: 40em){} -TABLET E DESKTOP
+	@media screen and (min-width: 64em){} -DESKTOP
+*/
+
 /*
 	* HELPER CLASSES
 */
@@ -39,7 +46,7 @@ body {
 	background-size: cover;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 40em) { 
 	.bol--full-login--img {
 		min-height: 100vh;
 		max-height: 100vh;
@@ -80,6 +87,88 @@ body {
 	border-bottom: 1px solid #404142;
 	transition: 1s;
 }
+
+
+
+
+/*
+	*MAKE GUESS FOR GAME
+*/
+
+.bol--game-description {
+	padding: 2rem;
+}
+
+.bol--game-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0.5rem 0;
+	color: #404142;
+}
+
+.bol--game--subtitle {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0.5rem 0;
+	color: #404142;
+}
+
+.bol--game-input {
+	max-width: 400px;
+	margin: 0 auto 3rem;
+	display: block;
+}
+
+.bol--game-input .row {
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bol--game-input h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0.5rem 0;
+	color: #404142;
+	text-align: center;
+}
+
+.bol--game-input p {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0.5rem 0;
+	color: #404142;
+	text-align: center;
+}
+
+.bol--icon-versus {
+	font-size: 16px;
+	text-align: center;
+}
+
+.bol--guesses-table {
+	padding: 1rem;
+}
+
+.bol-guesses-table--header {
+	border-bottom: 2px solid #ab8d37;
+}
+
+.bol-guesses-table--header h4{
+	font-size: 18px;
+	margin: 0 auto 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,6 +274,13 @@ white-space: pre;
 	display: block;
 }
 
+.button--send-guess {
+	font-size: 18px;
+	border-radius: 3px;
+	padding: 0.5rem;
+}
+
+
 .bol-link__basic {
 	text-decoration: none;
 	width: 100%;
@@ -220,6 +316,7 @@ white-space: pre;
 
 
 
+
 /*
 	* SOLID INPUT FROM OTHER PROJECT
 */
@@ -246,4 +343,7 @@ white-space: pre;
   }
   
 
-
+  
+  .solid-radio--name {
+	vertical-align: super;
+  }

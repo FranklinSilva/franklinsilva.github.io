@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>SISBOLAO</title>
+		<link rel="showtcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/owl.theme.default.css">
+
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<!-- SUPONDO QUE O CODIGO EXTERNO A ESTE COMENTARIO SEJA VINDO DO ARQUIVO BASE -->
+
+		<div class="bol--game-description ">
+			<h1 class="bol--game-title">{{Bolao.id}} - {{Bolao.nomeBolao}}</h1>
+			<h2 class="bol--game-subtitle">{{Campeonato.nome}}</h2>
+			<h3 class="bol--game-subtitle">Criado em: {{Bolao.dataCricao}}</h3>
+			<h3 class="bol--game-subtitle">Válido até: {{Bolao.dataFechamento}}</h3>
+		</div>
+
+		<div class="bol--game-input">
+			<h3>Minha Aposta</h3>
+			<div class="row"> <!-- Mostrando default 1 jogo apenas por delimitacao de escopo do projeto -->
+				<div class="collumns small-5 bol--game">
+					<p>{{aposta.jogo.time_01.nome}}</p>
+					<input class="solid-input" type="text" value="{{ aposta.placar01 }}" />
+				</div>
+				<div class="collumns small-1">
+					<p class="bol--icon-versus">
+						<i class="fas fa-times"></i>
+					</p>
+				</div>
+				<div class="collumns small-5 bol--game">
+					<p>{{aposta.jogo.time_02.nome}}</p>
+					<input class="solid-input" type="text" value="{{ aposta.placar02 }}" />
+				</div>
+				<!-- Visualizacao do botao depende se usuário ja fez sua aposta -->
+				<div class="collumns small-12"> 
+					<button class="bol-btn bol-btn__upper bol-btn__secondary bol-btn__centered button--send-guess">Apostar</button>
+				</div>
+				<!-- Visualizacao do botao depende se usuário ja fez sua aposta -->
+
+			</div>
+		</div>
+		
+		<div class="bol--guesses-table">
+			<div class="row bol-guesses-table--header">
+				<div class="small-6">
+					<h4>Apostador</h4>
+				</div>
+				<div class="small-6">
+					<h4>{{jogo.time_01}} <i class="fas fa-times"></i> {{jogo.time_02}}</h4>
+				</div>
+			</div>
+			<div class="row">
+				<!-- For each Bolao.Jogo.apostas.aposta -->
+				<div class="small-6">
+					<h4>{{aposta.usuario.nickname}}</h4>
+				</div>
+				<div class="small-6">
+					<h4>{{aposta.placar01}} <i class="fas fa-times"></i> {{aposta.placar02}}</h4>
+				</div>
+			</div>
+		</div>
+
+		<!-- SUPONDO QUE O CODIGO EXTERNO A ESTE COMENTARIO SEJA VINDO DO ARQUIVO BASE -->
+	</body>	
+</html>
