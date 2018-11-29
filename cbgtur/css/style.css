@@ -239,7 +239,9 @@ body {
 }
 
 
-.collumns.small-6.medium-4.large-3.hotels-section--item {
+/*.collumns.small-6.medium-4.large-3.hotels-section--item, 
+.collumns.small-12.hotels-section--item,
+.collumns.small-6.medium-6.hotels-section--item {
     background-color: #fff;
     margin: 0 1% 2rem;
     padding: 1rem;
@@ -263,6 +265,33 @@ body {
 		width: 23%;
 		flex: 0 0 23%;
 	}
+}*/
+
+.collumns.small-12.medium-6.special-hotel {
+	background-color: #fff;
+    margin: 0 1% 3rem;
+    padding: 1rem 0 1rem;
+	border-radius: 6px;
+}
+
+.collumns.small-12.hotels-section--item {
+    margin: 4rem 0 0;
+}
+
+
+
+@media screen and (min-width: 40em){
+	.collumns.small-12.medium-6.special-hotel {
+		width: 48%;
+		flex: 0 0 48%;
+	}
+}
+
+.hotel-container {
+	margin: 0 1rem 1rem;
+	background-color: #fff;
+    padding: 0 0.5rem 1rem;
+	border-radius: 6px;
 }
 
 
@@ -287,8 +316,19 @@ body {
 	margin: 0 auto;
 }
 
+.collumns.small-12.hotels-section--item .hotel--img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 1rem;
+}
+
+.collumns.small-12.hotels-section--item .hotels-section--title {
+	width: 50%;
+	margin: 0 auto;
+}
+
 .hotel--img.pestana{
-	background: url(../img/hotels/pestana.png) no-repeat 30% 70%;
+	background: url(../img/hotels/pestana.jpg) no-repeat 30% 70%;
 }
 
 .hotel--img.monte-pascoal{
@@ -319,11 +359,34 @@ body {
 	background: url(../img/hotels/default.png) no-repeat 30% 70%;
 }
 
+.speakers-list--container {
+	padding: 2rem 0;
+}
+
+.speaker-title {
+	margin: 0 auto;
+	font-size: 32px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.speaker-bio {
+	margin: 0.5rem auto;
+	line-height: 1.3;
+	font-size: 16px;
+	text-align: center;
+	padding: 0 1rem;
+}
+
+.speaker-photo {
+	width: 40%;
+	border-radius: 50%;
+}
 
 
-
-
-
+.no-margin {
+	margin: 0 !important;
+}
 
 
 

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>SISBOLAO</title>
+		<link rel="showtcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/owl.theme.default.css">
+
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+
+		<!-- HEADER -->
+
+		<header class="bol--nav">
+			<div class="row align-justify align-middle">
+				<div class="small-5 medium-3 columns">
+				<a href="~/">
+					<img class="main-logo" src="img/logo.png" />
+				</a>
+				</div>
+		
+				<div class="medium-7 hide-for-small-only columns">
+				<ul class="bol--nav-medium--list">
+					<li data-toggle="bol--dropdown" class="bol--nav-medium--list--item bol--nav-medium--list--item__divisor">
+					<a href="#"><i class="fas fa-user-circle-o" aria-hidden="true"></i>  Olá {{usuario.nome}}</a>
+					</li>
+					<li data-toggle="bol--dropdown" class="bol--nav-medium--list--item">
+					<a href="#" >Logout <i class="fas fa-sign-out" aria-hidden="true"></i></a>
+					</li>
+				</ul>
+				</div>
+		
+				<div class="small-4 show-for-small-only columns">
+				<ul class="bol--nav--list">
+					<li class="bol--nav--list--item">
+					<a href="#">
+						<i class="fas fa-user-circle-o" aria-hidden="true"></i>
+					</a>
+					</li>
+					<li data-toggle="bol--dropdown" class="bol--nav-management--list--item">
+					<a href="#" click="sm.isDropdownVisible = !sm.isDropdownVisible">
+						<i class="fas fa-bars" aria-hidden="true"></i>
+					</a>
+					</li>
+				</ul>
+				</div>
+		
+				<div class="small-12 show-for-small-only columns">
+				<ul class="bol--dropdown">
+					<li class="bol--dropdown--item">
+					<a href="javascript:document.getElementById('logoutForm').submit()">Logout</a>
+					</li>
+				</ul>
+				</div>
+		
+				<label class="columns small-12 show-for-small-only">
+				<select class="management--small-menu"
+						name=""
+						required
+				></select>
+				</label>
+			</div>
+		</header>
+
+		<!-- /HEADER -->
+
+		<section class="bol--body">
+			<div class="row align-center bol--body--min-height">
+				<div class="medium-3 hide-for-small-only bol--body--menu">
+					<!-- MENU -->
+					<div class="bol--menu--user-big-icon">
+							<i class="fas fa-user-circle" aria-hidden="true"></i>
+						  </div>
+						  <ul class="bol--body--menu--list">
+							<li class="bol--body--menu--list--item">
+							  <a href="#"><i class="bol--body--menu--list--item--icon hide-for-medium-only fas fa-id-card" aria-hidden="true"></i> Detalhes de Conta</a>
+							</li>
+							<li class="bol--body--menu--list--item">
+							  <a href="#"><i class="bol--body--menu--list--item--icon hide-for-medium-only fas fa-pen" aria-hidden="true"></i> Novo Bolao</a>
+							</li>
+							<li class="bol--body--menu--list--item">
+							  <a href="#"><i class="bol--body--menu--list--item--icon hide-for-medium-only fas fa-credit-card" aria-hidden="true"></i> Ranking</a>
+							</li>
+							<li class="bol--body--menu--list--item">
+							  <a href="#"><i class="bol--body--menu--list--item--icon hide-for-medium-only fas fa-comments" aria-hidden="true"></i> Grupos</a>
+							</li>
+							
+						  </ul>
+					<!-- MENU -->
+				</div>
+				<div class="columns small-12 medium-9 bol--body--info"> <!--background gray-->
+					<div class="row bol--body--margin align-center align-top">
+						<!-- CONTENT SHOULD GO HERE -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer>
+			<p>Sisbolao - All rights Reserved</p>
+		</footer>
+
+	</body>	
+</html>
